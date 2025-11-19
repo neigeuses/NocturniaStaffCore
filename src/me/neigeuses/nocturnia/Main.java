@@ -16,7 +16,7 @@ public class Main extends JavaPlugin  {
     @Override
     public void onEnable() {
         System.out.println(" ");
-        System.out.println(COLOR_RED + "[NocturiaStaffCore] NocturiaStaffCore is Enable" + COLOR_RESET);
+        System.out.println(COLOR_RED + "[NocturniaStaffCore] NocturniaStaffCore is Enable" + COLOR_RESET);
         System.out.println(" ");
         getCommand("staff").setExecutor(new Staff());
         getCommand("staffchat").setExecutor(new StaffChat());
@@ -24,7 +24,7 @@ public class Main extends JavaPlugin  {
     @Override
     public void onDisable() {
         System.out.println(" ");
-        System.out.println(COLOR_RED + "[NocturiaStaffCore] NocturiaStaffCore Core is Disabled" + COLOR_RESET);
+        System.out.println(COLOR_RED + "[NocturniaStaffCore] NocturniaStaffCore Core is Disabled" + COLOR_RESET);
         System.out.println(" ");
         this.getServer().getMessenger().unregisterOutgoingPluginChannel(this);
         this.getServer().getMessenger().unregisterIncomingPluginChannel(this);
