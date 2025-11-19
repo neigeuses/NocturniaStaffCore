@@ -1,7 +1,7 @@
 name: NocturniaStaffCore
 version: 1.0
 author: Neigeuses
-description: Minecraft StaffCore for NuctorniaStaffCore
+description: Minecraft StaffCore for NocturniaStaffCore
 main: me.neigeuses.nocturnia.Main
 commands:
   staff:
