@@ -1,0 +1,16 @@
+name: NocturiaStaffCore
+version: 1.0
+author: Neigeuses
+description: Minecraft StaffCore for NuctoriaStaffCore
+main: me.neigeuses.nocturnia.Main
+commands:
+  staff:
+    description: Staff Mod
+    permission: staff.use
+    aliases: ss
+    usage: /staff
+  staffchat:
+    description: Chat command
+    permission: staff.use
+    aliases: sc
+    usage: /staffchat <message>
