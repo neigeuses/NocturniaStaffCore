@@ -29,10 +29,7 @@ public class Staff implements CommandExecutor, Listener {
         vanishMeta.setDisplayName("§cVanish");
         vanish.setItemMeta(vanishMeta);
         player.getInventory().setItem(8, vanish);
-
-
         return false;
-
     }
 
     @EventHandler

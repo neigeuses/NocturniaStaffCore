@@ -15,7 +15,7 @@ public class StaffChat implements CommandExecutor {
             String message = String.join(" ", args);
             for (Player onlinePlayer : Bukkit.getOnlinePlayers()) {
                 if (onlinePlayer.hasPermission("staff.use")) {
-                    onlinePlayer.sendMessage("§b§l[Staff]§f " + player.getPlayerListName() +  " : " + message);
+                    onlinePlayer.sendMessage("§b§l[Staff Chat]§f " + player.getPlayerListName() +  " : " + message);
                 }
             }
             return true;
